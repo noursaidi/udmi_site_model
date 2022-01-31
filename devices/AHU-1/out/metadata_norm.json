@@ -22,6 +22,22 @@
       }
     }
   },
+    "testing": {
+    "targets": {
+      "applied": {
+        "target_point": "superimposition_reading",
+        "target_value": 60
+      },
+      "failure": {
+        "target_point": "faulty_finding",
+        "target_value": false
+      },
+      "invalid": {
+        "target_point": "recalcitrant_angle",
+        "target_value": 15
+      }
+    }
+  },
   "pointset": {
     "points": {
       "filter_alarm_pressure_status": {
