@@ -36,6 +36,22 @@
   "cloud": {
     "auth_type": "RS256"
   },
+   "testing": {
+    "targets": {
+      "applied": {
+        "target_point": "superimposition_reading",
+        "target_value": 60
+      },
+      "failure": {
+        "target_point": "faulty_finding",
+        "target_value": false
+      },
+      "invalid": {
+        "target_point": "recalcitrant_angle",
+        "target_value": 15
+      }
+    }
+  },
   "version": 1,
   "timestamp": "2020-05-01T13:39:07Z",
   "hash": "181301c3"
