@@ -1,0 +1,26 @@
+2022-09-08T15:28:15Z INFO pubber update state 2022-09-08T15:28:15Z last_config 2022-09-08T15:28:08Z
+2022-09-08T15:28:15Z WARNING pubber State update defer -4134ms
+2022-09-08T15:28:15Z INFO pubber Config handler
+2022-09-08T15:28:15Z WARNING pubber State update defer 1994ms
+2022-09-08T15:28:15Z WARNING pubber State update defer 1995ms
+2022-09-08T15:28:15Z WARNING pubber State update defer 1999ms
+2022-09-08T15:28:15Z NOTICE system.config.apply success
+2022-09-08T15:28:15Z INFO pubber 2022-09-08T15:28:15Z received config 2022-09-08T15:28:14Z
+2022-09-08T15:28:16Z WARNING pubber State update defer 719ms
+2022-09-08T15:28:16Z INFO pubber Config handler
+2022-09-08T15:28:16Z WARNING pubber State update defer 718ms
+2022-09-08T15:28:16Z WARNING pubber State update defer 714ms
+2022-09-08T15:28:16Z INFO pubber 2022-09-08T15:28:16Z received config 2022-09-08T15:28:14Z
+2022-09-08T15:28:16Z WARNING pubber State update defer 714ms
+2022-09-08T15:28:17Z INFO pubber update state 2022-09-08T15:28:17Z last_config 2022-09-08T15:28:14Z
+2022-09-08T15:28:17Z WARNING pubber State update defer -1ms
+2022-09-08T15:28:16Z NOTICE system.config.apply success
+2022-09-08T15:28:17Z INFO pubber 2022-09-08T15:28:17Z sending test message #80
+2022-09-08T15:28:17Z WARNING pubber State update defer 1715ms
+2022-09-08T15:28:17Z INFO pubber Config handler
+2022-09-08T15:28:17Z WARNING pubber State update defer 1710ms
+2022-09-08T15:28:17Z WARNING pubber State update defer 1716ms
+2022-09-08T15:28:17Z INFO pubber 2022-09-08T15:28:17Z received config 2022-09-08T15:28:16Z
+2022-09-08T15:28:17Z WARNING pubber State update defer 1710ms
+2022-09-08T15:28:17Z NOTICE system.config.apply success
+2022-09-08T15:28:23Z WARNING sequencer Missing 'invalid' target specification

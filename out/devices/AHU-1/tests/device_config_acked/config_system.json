@@ -1,0 +1,9 @@
+{
+  "metrics_rate_sec" : 600,
+  "min_loglevel" : 200,
+  "testing" : {
+    "sequence_name" : "device_config_acked"
+  },
+  "timestamp" : "2022-09-08T15:25:48.987Z",
+  "version" : "1.3.13-129-g48eea9cf"
+}

@@ -1,0 +1,10 @@
+{
+  "logentries" : [ {
+    "message" : "State update defer -1ms",
+    "category" : "pubber",
+    "timestamp" : "2022-09-08T15:26:22Z",
+    "level" : 400
+  } ],
+  "timestamp" : "2022-09-08T15:26:22.249Z",
+  "version" : "1.3.14"
+}

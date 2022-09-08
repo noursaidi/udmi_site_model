@@ -1,0 +1,10 @@
+{
+  "logentries" : [ {
+    "message" : "success",
+    "category" : "system.config.apply",
+    "timestamp" : "2022-09-08T15:28:28Z",
+    "level" : 300
+  } ],
+  "timestamp" : "2022-09-08T15:28:28.651Z",
+  "version" : "1.3.14"
+}

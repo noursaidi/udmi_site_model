@@ -1,0 +1,62 @@
+2022-09-08T15:25:42Z INFO pubber update state 2022-09-08T15:25:42Z last_config 2022-09-08T15:25:39Z
+2022-09-08T15:25:42Z WARNING pubber State update defer -1ms
+2022-09-08T15:25:42Z INFO pubber 2022-09-08T15:25:42Z received config 2022-09-08T15:25:41Z
+2022-09-08T15:25:42Z WARNING pubber State update defer 1988ms
+2022-09-08T15:25:42Z WARNING pubber State update defer 1989ms
+2022-09-08T15:25:42Z WARNING pubber State update defer 1992ms
+2022-09-08T15:25:42Z NOTICE system.config.apply success
+2022-09-08T15:25:42Z WARNING pubber State update defer 1993ms
+2022-09-08T15:25:42Z INFO pubber Config handler
+2022-09-08T15:25:43Z NOTICE system.config.apply success
+2022-09-08T15:25:43Z INFO pubber Config handler
+2022-09-08T15:25:43Z WARNING pubber State update defer 809ms
+2022-09-08T15:25:43Z WARNING pubber State update defer 813ms
+2022-09-08T15:25:43Z INFO pubber 2022-09-08T15:25:43Z received config 2022-09-08T15:25:43Z
+2022-09-08T15:25:43Z WARNING pubber State update defer 808ms
+2022-09-08T15:25:43Z WARNING pubber State update defer 814ms
+2022-09-08T15:25:44Z INFO pubber update state 2022-09-08T15:25:44Z last_config 2022-09-08T15:25:43Z
+2022-09-08T15:25:44Z WARNING pubber State update defer 0ms
+2022-09-08T15:25:46Z INFO pubber Config handler
+2022-09-08T15:25:46Z NOTICE system.config.apply success
+2022-09-08T15:25:46Z WARNING pubber State update defer 792ms
+2022-09-08T15:25:46Z WARNING pubber State update defer 793ms
+2022-09-08T15:25:46Z WARNING pubber State update defer 788ms
+2022-09-08T15:25:46Z INFO pubber 2022-09-08T15:25:46Z received config 2022-09-08T15:25:45Z
+2022-09-08T15:25:46Z WARNING pubber State update defer 787ms
+2022-09-08T15:25:46Z WARNING pubber State update defer -1ms
+2022-09-08T15:25:46Z INFO pubber update state 2022-09-08T15:25:46Z last_config 2022-09-08T15:25:45Z
+2022-09-08T15:25:48Z WARNING pubber State update defer 874ms
+2022-09-08T15:25:48Z WARNING pubber State update defer 869ms
+2022-09-08T15:25:48Z WARNING pubber State update defer 873ms
+2022-09-08T15:25:48Z WARNING pubber State update defer 869ms
+2022-09-08T15:25:48Z INFO pubber 2022-09-08T15:25:48Z received config 2022-09-08T15:25:45Z
+2022-09-08T15:25:48Z INFO pubber Config handler
+2022-09-08T15:25:48Z NOTICE system.config.apply success
+2022-09-08T15:25:49Z WARNING pubber State update defer -1ms
+2022-09-08T15:25:49Z INFO pubber update state 2022-09-08T15:25:49Z last_config 2022-09-08T15:25:45Z
+2022-09-08T15:25:49Z WARNING pubber State update defer 1971ms
+2022-09-08T15:25:49Z NOTICE system.config.apply success
+2022-09-08T15:25:49Z INFO pubber 2022-09-08T15:25:49Z received config 2022-09-08T15:25:49Z
+2022-09-08T15:25:49Z INFO pubber Config handler
+2022-09-08T15:25:49Z WARNING pubber State update defer 1971ms
+2022-09-08T15:25:49Z WARNING pubber State update defer 1965ms
+2022-09-08T15:25:49Z WARNING pubber State update defer 1966ms
+2022-09-08T15:25:50Z INFO pubber Config handler
+2022-09-08T15:25:50Z NOTICE system.config.apply success
+2022-09-08T15:25:50Z WARNING pubber State update defer 767ms
+2022-09-08T15:25:50Z WARNING pubber State update defer 768ms
+2022-09-08T15:25:50Z WARNING pubber State update defer 771ms
+2022-09-08T15:25:50Z INFO pubber 2022-09-08T15:25:50Z received config 2022-09-08T15:25:49Z
+2022-09-08T15:25:50Z WARNING pubber State update defer 772ms
+2022-09-08T15:25:51Z WARNING pubber State update defer 0ms
+2022-09-08T15:25:51Z INFO pubber update state 2022-09-08T15:25:51Z last_config 2022-09-08T15:25:49Z
+2022-09-08T15:25:51Z NOTICE system.config.apply success
+2022-09-08T15:25:51Z WARNING pubber State update defer 1813ms
+2022-09-08T15:25:51Z WARNING pubber State update defer 1818ms
+2022-09-08T15:25:51Z INFO pubber 2022-09-08T15:25:51Z received config 2022-09-08T15:25:51Z
+2022-09-08T15:25:51Z WARNING pubber State update defer 1817ms
+2022-09-08T15:25:51Z INFO pubber Config handler
+2022-09-08T15:25:51Z WARNING pubber State update defer 1814ms
+2022-09-08T15:25:53Z WARNING pubber State update defer -1ms
+2022-09-08T15:25:53Z INFO pubber update state 2022-09-08T15:25:53Z last_config 2022-09-08T15:25:51Z
+2022-09-08T15:25:55Z INFO sequencer Sequence complete

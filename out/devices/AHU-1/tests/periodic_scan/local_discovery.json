@@ -1,0 +1,9 @@
+{
+  "families" : {
+    "virtual" : {
+      "generation" : "2022-09-08T15:27:21Z",
+      "scan_interval_sec" : 10,
+      "enumerate" : true
+    }
+  }
+}

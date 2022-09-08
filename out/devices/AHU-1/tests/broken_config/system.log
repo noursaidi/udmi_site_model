@@ -1,0 +1,157 @@
+2022-09-08T15:25:08Z WARNING pubber State update defer 602ms
+2022-09-08T15:25:09Z WARNING pubber State update defer -1ms
+2022-09-08T15:25:09Z INFO pubber update state 2022-09-08T15:25:09Z last_config 2022-09-08T15:25:08Z
+2022-09-08T15:25:08Z WARNING pubber State update defer 603ms
+2022-09-08T15:25:09Z WARNING pubber State update defer 1485ms
+2022-09-08T15:25:09Z WARNING pubber State update defer 1491ms
+2022-09-08T15:25:09Z INFO pubber 2022-09-08T15:25:09Z received config 2022-09-08T15:25:08Z
+2022-09-08T15:25:09Z INFO pubber Config handler
+2022-09-08T15:25:09Z WARNING pubber State update defer 1486ms
+2022-09-08T15:25:09Z WARNING pubber State update defer 1492ms
+2022-09-08T15:25:09Z NOTICE system.config.apply success
+2022-09-08T15:25:11Z INFO pubber update state 2022-09-08T15:25:11Z last_config 2022-09-08T15:25:08Z
+2022-09-08T15:25:11Z WARNING pubber State update defer -1ms
+2022-09-08T15:25:13Z WARNING pubber State update defer 261ms
+2022-09-08T15:25:13Z WARNING pubber State update defer 265ms
+2022-09-08T15:25:13Z WARNING pubber State update defer 261ms
+2022-09-08T15:25:13Z NOTICE system.config.apply success
+2022-09-08T15:25:13Z INFO pubber 2022-09-08T15:25:13Z received config 2022-09-08T15:25:13Z
+2022-09-08T15:25:13Z WARNING pubber State update defer 265ms
+2022-09-08T15:25:13Z INFO pubber Config handler
+2022-09-08T15:25:13Z WARNING pubber State update defer 0ms
+2022-09-08T15:25:13Z INFO pubber update state 2022-09-08T15:25:13Z last_config 2022-09-08T15:25:13Z
+2022-09-08T15:25:15Z INFO pubber update state 2022-09-08T15:25:15Z last_config 2022-09-08T15:25:13Z
+2022-09-08T15:25:15Z WARNING pubber State update defer -188ms
+2022-09-08T15:25:15Z INFO pubber 2022-09-08T15:25:15Z received config 2022-09-08T15:25:13Z
+2022-09-08T15:25:15Z NOTICE system.config.apply success
+2022-09-08T15:25:15Z INFO pubber Config handler
+2022-09-08T15:25:15Z WARNING pubber State update defer 1995ms
+2022-09-08T15:25:15Z WARNING pubber State update defer 1996ms
+2022-09-08T15:25:15Z WARNING pubber State update defer 1999ms
+2022-09-08T15:25:15Z WARNING pubber State update defer 1946ms
+2022-09-08T15:25:15Z INFO pubber Config handler
+2022-09-08T15:25:15Z WARNING pubber State update defer 1950ms
+2022-09-08T15:25:15Z WARNING pubber State update defer 1949ms
+2022-09-08T15:25:15Z WARNING pubber State update defer 1946ms
+2022-09-08T15:25:17Z WARNING pubber State update defer 855ms
+2022-09-08T15:25:17Z WARNING pubber State update defer 853ms
+2022-09-08T15:25:17Z WARNING pubber State update defer 851ms
+2022-09-08T15:25:17Z WARNING pubber State update defer 852ms
+2022-09-08T15:25:17Z WARNING pubber State update defer 423ms
+2022-09-08T15:25:17Z WARNING pubber State update defer 0ms
+2022-09-08T15:25:18Z WARNING pubber State update defer 1903ms
+2022-09-08T15:25:18Z WARNING pubber State update defer 1901ms
+2022-09-08T15:25:18Z WARNING pubber State update defer 1900ms
+2022-09-08T15:25:18Z WARNING pubber State update defer 1905ms
+2022-09-08T15:25:18Z INFO pubber 2022-09-08T15:25:18Z received config 2022-09-08T15:25:17Z
+2022-09-08T15:25:18Z NOTICE system.config.apply success
+2022-09-08T15:25:19Z INFO pubber 2022-09-08T15:25:19Z received config 2022-09-08T15:25:19Z
+2022-09-08T15:25:19Z WARNING pubber State update defer 103ms
+2022-09-08T15:25:19Z NOTICE system.config.apply success
+2022-09-08T15:25:19Z INFO pubber Config handler
+2022-09-08T15:25:19Z WARNING pubber State update defer 108ms
+2022-09-08T15:25:19Z WARNING pubber State update defer 107ms
+2022-09-08T15:25:19Z WARNING pubber State update defer 102ms
+2022-09-08T15:25:20Z WARNING pubber State update defer -1ms
+2022-09-08T15:25:20Z INFO pubber update state 2022-09-08T15:25:20Z last_config 2022-09-08T15:25:19Z
+2022-09-08T15:25:21Z INFO pubber Config handler
+2022-09-08T15:25:21Z WARNING pubber State update defer 1118ms
+2022-09-08T15:25:21Z WARNING pubber State update defer 1117ms
+2022-09-08T15:25:21Z WARNING pubber State update defer 1114ms
+2022-09-08T15:25:21Z NOTICE system.config.apply success
+2022-09-08T15:25:21Z WARNING pubber State update defer 1113ms
+2022-09-08T15:25:21Z INFO pubber 2022-09-08T15:25:21Z received config 2022-09-08T15:25:19Z
+2022-09-08T15:25:22Z WARNING pubber State update defer 0ms
+2022-09-08T15:25:22Z INFO pubber update state 2022-09-08T15:25:22Z last_config 2022-09-08T15:25:19Z
+2022-09-08T15:25:23Z WARNING pubber State update defer 967ms
+2022-09-08T15:25:23Z NOTICE system.config.apply success
+2022-09-08T15:25:23Z WARNING pubber State update defer 962ms
+2022-09-08T15:25:23Z INFO pubber Config handler
+2022-09-08T15:25:23Z INFO pubber 2022-09-08T15:25:23Z received config 2022-09-08T15:25:23Z
+2022-09-08T15:25:23Z WARNING pubber State update defer 968ms
+2022-09-08T15:25:23Z WARNING pubber State update defer 963ms
+2022-09-08T15:25:24Z INFO pubber update state 2022-09-08T15:25:24Z last_config 2022-09-08T15:25:23Z
+2022-09-08T15:25:24Z WARNING pubber State update defer 0ms
+2022-09-08T15:25:24Z INFO pubber Config handler
+2022-09-08T15:25:24Z WARNING pubber State update defer 1826ms
+2022-09-08T15:25:24Z WARNING pubber State update defer 1827ms
+2022-09-08T15:25:24Z INFO pubber 2022-09-08T15:25:24Z received config 2022-09-08T15:25:23Z
+2022-09-08T15:25:24Z WARNING pubber State update defer 1831ms
+2022-09-08T15:25:24Z NOTICE system.config.apply success
+2022-09-08T15:25:24Z WARNING pubber State update defer 1832ms
+2022-09-08T15:25:25Z NOTICE system.config.apply success
+2022-09-08T15:25:25Z WARNING pubber State update defer 378ms
+2022-09-08T15:25:25Z WARNING pubber State update defer 379ms
+2022-09-08T15:25:25Z INFO pubber 2022-09-08T15:25:25Z received config 2022-09-08T15:25:25Z
+2022-09-08T15:25:25Z WARNING pubber State update defer 374ms
+2022-09-08T15:25:25Z WARNING pubber State update defer 373ms
+2022-09-08T15:25:25Z INFO pubber Config handler
+2022-09-08T15:25:26Z WARNING pubber State update defer -1ms
+2022-09-08T15:25:26Z INFO pubber update state 2022-09-08T15:25:26Z last_config 2022-09-08T15:25:25Z
+2022-09-08T15:25:29Z WARNING pubber State update defer -964ms
+2022-09-08T15:25:29Z INFO pubber update state 2022-09-08T15:25:29Z last_config 2022-09-08T15:25:25Z
+2022-09-08T15:25:29Z WARNING pubber State update defer 1995ms
+2022-09-08T15:25:29Z INFO pubber 2022-09-08T15:25:29Z received config 2022-09-08T15:25:29Z
+2022-09-08T15:25:29Z NOTICE system.config.apply success
+2022-09-08T15:25:29Z INFO pubber Config handler
+2022-09-08T15:25:29Z WARNING pubber State update defer 1999ms
+2022-09-08T15:25:29Z WARNING pubber State update defer 1994ms
+2022-09-08T15:25:30Z WARNING pubber State update defer 908ms
+2022-09-08T15:25:30Z INFO pubber 2022-09-08T15:25:30Z received config 2022-09-08T15:25:30Z
+2022-09-08T15:25:30Z NOTICE system.config.apply success
+2022-09-08T15:25:30Z WARNING pubber State update defer 913ms
+2022-09-08T15:25:30Z INFO pubber Config handler
+2022-09-08T15:25:30Z WARNING pubber State update defer 914ms
+2022-09-08T15:25:30Z WARNING pubber State update defer 909ms
+2022-09-08T15:25:31Z INFO pubber update state 2022-09-08T15:25:31Z last_config 2022-09-08T15:25:30Z
+2022-09-08T15:25:31Z WARNING pubber State update defer -1ms
+2022-09-08T15:25:31Z DEBUG pubber State update (broken_config)
+2022-09-08T15:25:34Z WARNING pubber State update defer -502ms
+2022-09-08T15:25:34Z DEBUG pubber State update (broken_config)
+2022-09-08T15:25:34Z INFO pubber update state 2022-09-08T15:25:34Z last_config 2022-09-08T15:25:30Z
+2022-09-08T15:25:34Z DEBUG system.config.receive success
+2022-09-08T15:25:34Z ERROR pubber Error receiving message config: Unexpected character ('b' (code 98)): was expecting double-quote to start field name
+ at [Source: (String)"{ broken because extra_field == break_json"; line: 1, column: 4]
+2022-09-08T15:25:34Z WARNING pubber State update defer 1996ms
+2022-09-08T15:25:34Z ERROR system.config.parse Unexpected character ('b' (code 98)): was expecting double-quote to start field name
+ at [Source: (String)"{ broken because extra_field == break_json"; line: 1, column: 4]
+2022-09-08T15:25:36Z WARNING pubber State update defer -1ms
+2022-09-08T15:25:36Z DEBUG pubber State update (broken_config)
+2022-09-08T15:25:36Z INFO pubber update state 2022-09-08T15:25:36Z last_config 2022-09-08T15:25:30Z
+2022-09-08T15:25:37Z DEBUG pubber Config update (reset_config)
+2022-09-08T15:25:37Z WARNING pubber State update defer 1201ms
+2022-09-08T15:25:37Z INFO pubber Config handler
+2022-09-08T15:25:37Z WARNING pubber State update defer 1199ms
+2022-09-08T15:25:37Z DEBUG system.config.parse success
+2022-09-08T15:25:37Z INFO pubber 2022-09-08T15:25:37Z received config 2022-09-08T15:25:37Z
+2022-09-08T15:25:37Z WARNING pubber State update defer 1190ms
+2022-09-08T15:25:37Z NOTICE system.config.apply success
+2022-09-08T15:25:37Z DEBUG system.config.receive success
+2022-09-08T15:25:37Z WARNING pubber State update defer 1194ms
+2022-09-08T15:25:37Z WARNING pubber State update defer 944ms
+2022-09-08T15:25:38Z INFO pubber update state 2022-09-08T15:25:38Z last_config 2022-09-08T15:25:37Z
+2022-09-08T15:25:38Z WARNING pubber State update defer -1ms
+2022-09-08T15:25:38Z NOTICE system.config.apply success
+2022-09-08T15:25:38Z WARNING pubber State update defer 1826ms
+2022-09-08T15:25:38Z INFO pubber 2022-09-08T15:25:38Z received config 2022-09-08T15:25:37Z
+2022-09-08T15:25:38Z INFO pubber Config handler
+2022-09-08T15:25:38Z WARNING pubber State update defer 1830ms
+2022-09-08T15:25:38Z WARNING pubber State update defer 1835ms
+2022-09-08T15:25:38Z WARNING pubber State update defer 1836ms
+2022-09-08T15:25:39Z WARNING pubber State update defer 591ms
+2022-09-08T15:25:39Z WARNING pubber State update defer 595ms
+2022-09-08T15:25:39Z INFO pubber Config handler
+2022-09-08T15:25:39Z NOTICE system.config.apply success
+2022-09-08T15:25:39Z WARNING pubber State update defer 590ms
+2022-09-08T15:25:39Z INFO pubber 2022-09-08T15:25:39Z received config 2022-09-08T15:25:39Z
+2022-09-08T15:25:39Z WARNING pubber State update defer 596ms
+2022-09-08T15:25:40Z INFO pubber update state 2022-09-08T15:25:40Z last_config 2022-09-08T15:25:39Z
+2022-09-08T15:25:40Z WARNING pubber State update defer -1ms
+2022-09-08T15:25:41Z INFO pubber 2022-09-08T15:25:41Z received config 2022-09-08T15:25:39Z
+2022-09-08T15:25:41Z WARNING pubber State update defer 1494ms
+2022-09-08T15:25:41Z WARNING pubber State update defer 1498ms
+2022-09-08T15:25:41Z WARNING pubber State update defer 1499ms
+2022-09-08T15:25:41Z INFO pubber Config handler
+2022-09-08T15:25:41Z NOTICE system.config.apply success
+2022-09-08T15:25:41Z WARNING pubber State update defer 1493ms
+2022-09-08T15:25:45Z INFO sequencer Sequence complete

@@ -1,0 +1,1366 @@
+2022-09-08T15:26:37Z NOTICE sequencer starting test single_scan
+2022-09-08T15:26:37Z DEBUG sequencer Starting reset_config
+2022-09-08T15:26:37Z INFO sequencer start waiting for device config sync after 0s
+2022-09-08T15:26:37Z DEBUG sequencer system config extra field reset_config
+2022-09-08T15:26:37Z DEBUG sequencer update config_system
+2022-09-08T15:26:37Z DEBUG sequencer local local_system
+2022-09-08T15:26:39Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "1970-01-01T00:00:00Z",
+  "version" : "@@@cloud udmi version###null",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "testing" : {
+      "sequence_name" : "reset_config"
+    }
+  }
+}
+2022-09-08T15:26:39Z DEBUG sequencer received event_pointset
+2022-09-08T15:26:39Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:37Z: 2022-09-08T15:26:37Z sending test message #70
+2022-09-08T15:26:39Z DEBUG sequencer received config_system
+2022-09-08T15:26:39Z DEBUG sequencer received config_update
+2022-09-08T15:26:39Z DEBUG sequencer Update with config reset
+2022-09-08T15:26:39Z INFO sequencer Updated config with timestamp 2022-09-08T15:26:39Z
+2022-09-08T15:26:39Z DEBUG sequencer Updated config #001:
+{
+  "timestamp" : "2022-09-08T15:26:39Z",
+  "version" : "1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "testing" : {
+      "sequence_name" : "reset_config"
+    }
+  }
+}
+2022-09-08T15:26:39Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "2022-09-08T15:26:39Z",
+  "version" : "@@@cloud udmi version###1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "1970-01-01T00:00:00Z",
+    "testing" : {
+      "sequence_name" : "reset_config"
+    }
+  }
+}
+2022-09-08T15:26:39Z INFO sequencer finished waiting for device config sync after 2s
+2022-09-08T15:26:39Z INFO sequencer clearing system logs...
+2022-09-08T15:26:40Z DEBUG sequencer Reading generated config file /Users/nournew/udmi7/udmi/sites/udmi_site_model/devices/AHU-1/out/generated_config.json
+2022-09-08T15:26:40Z INFO sequencer start waiting for device config sync after 3s
+2022-09-08T15:26:40Z DEBUG sequencer system config extra field null
+2022-09-08T15:26:40Z DEBUG sequencer update config_system
+2022-09-08T15:26:40Z DEBUG sequencer local local_system
+2022-09-08T15:26:42Z DEBUG sequencer update config_pointset
+2022-09-08T15:26:42Z DEBUG sequencer local local_pointset
+2022-09-08T15:26:44Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "2022-04-21T00:33:43Z",
+  "version" : "@@@cloud udmi version###1.3.14",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:44Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:39Z: State update defer -4718ms
+2022-09-08T15:26:44Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:39Z: update state 2022-09-08T15:26:39Z last_config 2022-09-08T15:26:32Z
+2022-09-08T15:26:44Z DEBUG sequencer received state_update
+2022-09-08T15:26:44Z DEBUG sequencer Updated state #001:
+{
+  "timestamp" : "2022-09-08T15:26:39Z",
+  "version" : "1.3.14",
+  "system" : {
+    "last_config" : "2022-09-08T15:26:32Z",
+    "operational" : true,
+    "mode" : "initial",
+    "last_start" : "2022-09-08T15:14:27Z",
+    "serial_no" : "123",
+    "hardware" : {
+      "make" : "BOS",
+      "model" : "pubber"
+    },
+    "software" : {
+      "firmware" : "v1"
+    }
+  },
+  "discovery" : {
+    "enumeration" : {
+      "generation" : "2022-09-08T15:19:27Z"
+    },
+    "families" : {
+      "virtual" : { }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : { },
+      "filter_differential_pressure_setpoint" : {
+        "value_state" : "applied"
+      },
+      "filter_differential_pressure_sensor" : { }
+    }
+  }
+}
+2022-09-08T15:26:44Z NOTICE sequencer Received serial no 123
+2022-09-08T15:26:44Z INFO sequencer Updated state has last_config 2022-09-08T15:26:32Z
+2022-09-08T15:26:44Z DEBUG sequencer received state_system
+2022-09-08T15:26:44Z DEBUG sequencer received state_pointset
+2022-09-08T15:26:44Z DEBUG sequencer received state_discovery
+2022-09-08T15:26:44Z DEBUG sequencer received event_system NOTICE system.config.apply 2022-09-08T15:26:39Z: success
+2022-09-08T15:26:44Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:39Z: State update defer 1996ms
+2022-09-08T15:26:44Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:39Z: Config handler
+2022-09-08T15:26:44Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:39Z: State update defer 1995ms
+2022-09-08T15:26:44Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:39Z: 2022-09-08T15:26:39Z received config 2022-09-08T15:26:39Z
+2022-09-08T15:26:44Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:39Z: State update defer 1999ms
+2022-09-08T15:26:44Z DEBUG sequencer received config_system
+2022-09-08T15:26:44Z DEBUG sequencer received config_update
+2022-09-08T15:26:44Z INFO sequencer Updated config with timestamp 2022-09-08T15:26:40Z
+2022-09-08T15:26:44Z DEBUG sequencer Updated config #002:
+{
+  "timestamp" : "2022-09-08T15:26:40Z",
+  "version" : "1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  }
+}
+2022-09-08T15:26:44Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "2022-09-08T15:26:40Z",
+  "version" : "@@@cloud udmi version###1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "1970-01-01T00:00:00Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:44Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:40Z: State update defer 802ms
+2022-09-08T15:26:44Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:40Z: Config handler
+2022-09-08T15:26:44Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:40Z: State update defer 800ms
+2022-09-08T15:26:44Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:40Z: State update defer 791ms
+2022-09-08T15:26:44Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:40Z: State update defer 790ms
+2022-09-08T15:26:44Z DEBUG sequencer received event_system NOTICE system.config.apply 2022-09-08T15:26:40Z: success
+2022-09-08T15:26:44Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:40Z: 2022-09-08T15:26:40Z received config 2022-09-08T15:26:40Z
+2022-09-08T15:26:44Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:41Z: update state 2022-09-08T15:26:41Z last_config 2022-09-08T15:26:40Z
+2022-09-08T15:26:44Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:41Z: State update defer 0ms
+2022-09-08T15:26:44Z DEBUG sequencer received config_update
+2022-09-08T15:26:44Z INFO sequencer Updated config with timestamp 2022-09-08T15:26:40Z
+2022-09-08T15:26:44Z DEBUG sequencer Updated config #003:
+{
+  "timestamp" : "2022-09-08T15:26:40Z",
+  "version" : "1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  }
+}
+2022-09-08T15:26:44Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "2022-09-08T15:26:40Z",
+  "version" : "@@@cloud udmi version###1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:44Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:42Z: State update defer 1511ms
+2022-09-08T15:26:44Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:42Z: Config handler
+2022-09-08T15:26:44Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:42Z: State update defer 1508ms
+2022-09-08T15:26:44Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:42Z: State update defer 1512ms
+2022-09-08T15:26:44Z DEBUG sequencer received event_system NOTICE system.config.apply 2022-09-08T15:26:42Z: success
+2022-09-08T15:26:44Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:42Z: 2022-09-08T15:26:42Z received config 2022-09-08T15:26:40Z
+2022-09-08T15:26:44Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:42Z: State update defer 1508ms
+2022-09-08T15:26:44Z DEBUG sequencer received config_pointset
+2022-09-08T15:26:44Z DEBUG sequencer received config_update
+2022-09-08T15:26:44Z INFO sequencer Updated config with timestamp 2022-09-08T15:26:42Z
+2022-09-08T15:26:44Z DEBUG sequencer Updated config #004:
+{
+  "timestamp" : "2022-09-08T15:26:42Z",
+  "version" : "1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:44Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "2022-09-08T15:26:42Z",
+  "version" : "@@@cloud udmi version###1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:44Z INFO sequencer finished waiting for device config sync after 7s
+2022-09-08T15:26:44Z DEBUG sequencer Done with reset_config
+2022-09-08T15:26:44Z INFO sequencer clearing system logs...
+2022-09-08T15:26:45Z DEBUG sequencer system config extra field null
+2022-09-08T15:26:45Z DEBUG sequencer update config_system
+2022-09-08T15:26:45Z DEBUG sequencer local local_system
+2022-09-08T15:26:47Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "2022-09-08T15:26:42Z",
+  "version" : "@@@cloud udmi version###1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:47Z INFO sequencer start waiting for device config sync after 10s
+2022-09-08T15:26:47Z DEBUG sequencer system config extra field null
+2022-09-08T15:26:47Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "2022-09-08T15:26:42Z",
+  "version" : "@@@cloud udmi version###1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:47Z INFO sequencer finished waiting for device config sync after 10s
+2022-09-08T15:26:47Z DEBUG sequencer config synced to 2022-09-08T15:26:42Z
+2022-09-08T15:26:47Z INFO sequencer start waiting for device state update after 10s
+2022-09-08T15:26:47Z DEBUG sequencer system config extra field null
+2022-09-08T15:26:47Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "2022-09-08T15:26:42Z",
+  "version" : "@@@cloud udmi version###1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:47Z INFO sequencer finished waiting for device state update after 10s
+2022-09-08T15:26:47Z DEBUG sequencer system config extra field null
+2022-09-08T15:26:47Z DEBUG sequencer update config_discovery
+2022-09-08T15:26:47Z DEBUG sequencer local local_discovery
+2022-09-08T15:26:49Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "2022-09-08T15:26:42Z",
+  "version" : "@@@cloud udmi version###1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "discovery" : {
+    "families" : { }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:49Z INFO sequencer start waiting for all scans not active after 12s
+2022-09-08T15:26:49Z DEBUG sequencer system config extra field null
+2022-09-08T15:26:49Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "2022-09-08T15:26:42Z",
+  "version" : "@@@cloud udmi version###1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "discovery" : {
+    "families" : { }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:49Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:49Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:49Z INFO sequencer finished waiting for all scans not active after 12s
+2022-09-08T15:26:49Z INFO sequencer Scan start scheduled for Thu Sep 08 16:26:59 BST 2022
+2022-09-08T15:26:49Z DEBUG sequencer system config extra field null
+2022-09-08T15:26:49Z DEBUG sequencer update config_discovery
+2022-09-08T15:26:49Z DEBUG sequencer local local_discovery
+2022-09-08T15:26:51Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "2022-09-08T15:26:42Z",
+  "version" : "@@@cloud udmi version###1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "discovery" : {
+    "families" : {
+      "virtual" : {
+        "generation" : "2022-09-08T15:26:59Z",
+        "enumerate" : true
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:51Z INFO sequencer start waiting for scheduled scan start after 14s
+2022-09-08T15:26:51Z DEBUG sequencer system config extra field null
+2022-09-08T15:26:51Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "2022-09-08T15:26:42Z",
+  "version" : "@@@cloud udmi version###1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "discovery" : {
+    "families" : {
+      "virtual" : {
+        "generation" : "2022-09-08T15:26:59Z",
+        "enumerate" : true
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:51Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:51Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:51Z DEBUG sequencer received event_system NOTICE system.config.apply 2022-09-08T15:26:43Z: success
+2022-09-08T15:26:51Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:51Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:51Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:43Z: State update defer 499ms
+2022-09-08T15:26:51Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:51Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:51Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:43Z: 2022-09-08T15:26:43Z received config 2022-09-08T15:26:42Z
+2022-09-08T15:26:51Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:51Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:51Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:43Z: State update defer 505ms
+2022-09-08T15:26:51Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:51Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:51Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:43Z: State update defer 503ms
+2022-09-08T15:26:51Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:51Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:51Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:43Z: State update defer 500ms
+2022-09-08T15:26:51Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:51Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:51Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:43Z: Config handler
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:43Z: update state 2022-09-08T15:26:43Z last_config 2022-09-08T15:26:42Z
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:43Z: State update defer -1ms
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_pointset
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_update
+2022-09-08T15:26:52Z DEBUG sequencer Updated state #002:
+{
+  "timestamp" : "2022-09-08T15:26:43Z",
+  "version" : "1.3.14",
+  "system" : {
+    "last_config" : "2022-09-08T15:26:42Z",
+    "operational" : true,
+    "mode" : "initial",
+    "last_start" : "2022-09-08T15:14:27Z",
+    "serial_no" : "123",
+    "hardware" : {
+      "make" : "BOS",
+      "model" : "pubber"
+    },
+    "software" : {
+      "firmware" : "v1"
+    },
+    "status" : {
+      "message" : "success",
+      "category" : "system.config.apply",
+      "timestamp" : "2022-09-08T15:26:43Z",
+      "level" : 300
+    }
+  },
+  "discovery" : {
+    "enumeration" : {
+      "generation" : "2022-09-08T15:19:27Z"
+    },
+    "families" : {
+      "virtual" : { }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : { },
+      "filter_differential_pressure_setpoint" : {
+        "value_state" : "applied"
+      },
+      "filter_differential_pressure_sensor" : { }
+    }
+  }
+}
+2022-09-08T15:26:52Z INFO sequencer Updated state has last_config 2022-09-08T15:26:42Z
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_discovery
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_system
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_discovery
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_system
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_pointset
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_update
+2022-09-08T15:26:52Z DEBUG sequencer Updated state #003:
+{
+  "timestamp" : "2022-09-08T15:26:41Z",
+  "version" : "1.3.14",
+  "system" : {
+    "last_config" : "2022-09-08T15:26:40Z",
+    "operational" : true,
+    "mode" : "initial",
+    "last_start" : "2022-09-08T15:14:27Z",
+    "serial_no" : "123",
+    "hardware" : {
+      "make" : "BOS",
+      "model" : "pubber"
+    },
+    "software" : {
+      "firmware" : "v1"
+    },
+    "status" : {
+      "message" : "success",
+      "category" : "system.config.apply",
+      "timestamp" : "2022-09-08T15:26:40Z",
+      "level" : 300
+    }
+  },
+  "discovery" : {
+    "enumeration" : {
+      "generation" : "2022-09-08T15:19:27Z"
+    },
+    "families" : {
+      "virtual" : { }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : { },
+      "filter_differential_pressure_setpoint" : { },
+      "filter_differential_pressure_sensor" : { }
+    }
+  }
+}
+2022-09-08T15:26:52Z INFO sequencer Updated state has last_config 2022-09-08T15:26:40Z
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_pointset
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_system
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_discovery
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_update
+2022-09-08T15:26:52Z DEBUG sequencer Updated state #004:
+{
+  "timestamp" : "2022-09-08T15:26:43Z",
+  "version" : "1.3.14",
+  "system" : {
+    "last_config" : "2022-09-08T15:26:42Z",
+    "operational" : true,
+    "mode" : "initial",
+    "last_start" : "2022-09-08T15:14:27Z",
+    "serial_no" : "123",
+    "hardware" : {
+      "make" : "BOS",
+      "model" : "pubber"
+    },
+    "software" : {
+      "firmware" : "v1"
+    },
+    "status" : {
+      "message" : "success",
+      "category" : "system.config.apply",
+      "timestamp" : "2022-09-08T15:26:43Z",
+      "level" : 300
+    }
+  },
+  "discovery" : {
+    "enumeration" : {
+      "generation" : "2022-09-08T15:19:27Z"
+    },
+    "families" : {
+      "virtual" : { }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : { },
+      "filter_differential_pressure_setpoint" : {
+        "value_state" : "applied"
+      },
+      "filter_differential_pressure_sensor" : { }
+    }
+  },
+  "configAcked" : "true"
+}
+2022-09-08T15:26:52Z INFO sequencer Updated state has last_config 2022-09-08T15:26:42Z
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received config_system
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received config_update
+2022-09-08T15:26:52Z INFO sequencer Updated config with timestamp 2022-09-08T15:26:46Z
+2022-09-08T15:26:52Z DEBUG sequencer Updated config #005:
+{
+  "timestamp" : "2022-09-08T15:26:46Z",
+  "version" : "1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:52Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "2022-09-08T15:26:46Z",
+  "version" : "@@@cloud udmi version###1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "discovery" : {
+    "families" : {
+      "virtual" : {
+        "generation" : "2022-09-08T15:26:59Z",
+        "enumerate" : true
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:46Z: update state 2022-09-08T15:26:46Z last_config 2022-09-08T15:26:42Z
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:46Z: State update defer -357ms
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_update
+2022-09-08T15:26:52Z DEBUG sequencer Updated state #005:
+{
+  "timestamp" : "2022-09-08T15:26:46Z",
+  "version" : "1.3.14",
+  "system" : {
+    "last_config" : "2022-09-08T15:26:42Z",
+    "operational" : true,
+    "mode" : "initial",
+    "last_start" : "2022-09-08T15:14:27Z",
+    "serial_no" : "123",
+    "hardware" : {
+      "make" : "BOS",
+      "model" : "pubber"
+    },
+    "software" : {
+      "firmware" : "v1"
+    }
+  },
+  "discovery" : {
+    "enumeration" : {
+      "generation" : "2022-09-08T15:19:27Z"
+    },
+    "families" : {
+      "virtual" : { }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : { },
+      "filter_differential_pressure_setpoint" : {
+        "value_state" : "applied"
+      },
+      "filter_differential_pressure_sensor" : { }
+    }
+  }
+}
+2022-09-08T15:26:52Z INFO sequencer Updated state has last_config 2022-09-08T15:26:42Z
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_pointset
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_system
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_discovery
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:46Z: 2022-09-08T15:26:46Z received config 2022-09-08T15:26:46Z
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:46Z: State update defer 1994ms
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system NOTICE system.config.apply 2022-09-08T15:26:46Z: success
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:46Z: State update defer 1993ms
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:46Z: Config handler
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:46Z: State update defer 1999ms
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:47Z: State update defer 927ms
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_pointset
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received config_discovery
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received config_update
+2022-09-08T15:26:52Z INFO sequencer Updated config with timestamp 2022-09-08T15:26:48Z
+2022-09-08T15:26:52Z DEBUG sequencer Updated config #006:
+{
+  "timestamp" : "2022-09-08T15:26:48Z",
+  "version" : "1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "discovery" : {
+    "families" : { }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:52Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "2022-09-08T15:26:48Z",
+  "version" : "@@@cloud udmi version###1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "discovery" : {
+    "families" : {
+      "virtual" : {
+        "generation" : "2022-09-08T15:26:59Z",
+        "enumerate" : true
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:48Z: State update defer 253ms
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:48Z: State update defer 248ms
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:48Z: Config handler
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system NOTICE system.config.apply 2022-09-08T15:26:48Z: success
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:48Z: State update defer 247ms
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:48Z: 2022-09-08T15:26:48Z received config 2022-09-08T15:26:48Z
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:48Z: State update defer 254ms
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:48Z: State update defer -1ms
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:48Z: update state 2022-09-08T15:26:48Z last_config 2022-09-08T15:26:48Z
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_system
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_pointset
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_discovery
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_update
+2022-09-08T15:26:52Z DEBUG sequencer Updated state #006:
+{
+  "timestamp" : "2022-09-08T15:26:48Z",
+  "version" : "1.3.14",
+  "system" : {
+    "last_config" : "2022-09-08T15:26:48Z",
+    "operational" : true,
+    "mode" : "initial",
+    "last_start" : "2022-09-08T15:14:27Z",
+    "serial_no" : "123",
+    "hardware" : {
+      "make" : "BOS",
+      "model" : "pubber"
+    },
+    "software" : {
+      "firmware" : "v1"
+    },
+    "status" : {
+      "message" : "success",
+      "category" : "system.config.apply",
+      "timestamp" : "2022-09-08T15:26:48Z",
+      "level" : 300
+    }
+  },
+  "discovery" : {
+    "enumeration" : {
+      "generation" : "2022-09-08T15:19:27Z"
+    },
+    "families" : {
+      "virtual" : { }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : { },
+      "filter_differential_pressure_setpoint" : {
+        "value_state" : "applied"
+      },
+      "filter_differential_pressure_sensor" : { }
+    }
+  }
+}
+2022-09-08T15:26:52Z INFO sequencer Updated state has last_config 2022-09-08T15:26:48Z
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received config_discovery
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received config_update
+2022-09-08T15:26:52Z INFO sequencer Updated config with timestamp 2022-09-08T15:26:50Z
+2022-09-08T15:26:52Z DEBUG sequencer Updated config #007:
+{
+  "timestamp" : "2022-09-08T15:26:50Z",
+  "version" : "1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "discovery" : {
+    "families" : {
+      "virtual" : {
+        "generation" : "2022-09-08T15:26:59Z",
+        "enumerate" : true
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:52Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "2022-09-08T15:26:50Z",
+  "version" : "@@@cloud udmi version###1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "discovery" : {
+    "families" : {
+      "virtual" : {
+        "generation" : "2022-09-08T15:26:59Z",
+        "enumerate" : true
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:50Z: State update defer 338ms
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:50Z: State update defer 331ms
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system NOTICE system.config.apply 2022-09-08T15:26:50Z: success
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:50Z: State update defer 330ms
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:50Z: State update defer 337ms
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:50Z: Config handler
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:50Z: 2022-09-08T15:26:50Z received config 2022-09-08T15:26:50Z
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:50Z: Discovery scan generation virtual is 2022-09-08T15:26:59Z
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:50Z: update state 2022-09-08T15:26:50Z last_config 2022-09-08T15:26:50Z
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:50Z: State update defer -1ms
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_system
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_pointset
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_discovery
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:52Z DEBUG sequencer received state_update
+2022-09-08T15:26:52Z DEBUG sequencer Updated state #007:
+{
+  "timestamp" : "2022-09-08T15:26:50Z",
+  "version" : "1.3.14",
+  "system" : {
+    "last_config" : "2022-09-08T15:26:50Z",
+    "operational" : true,
+    "mode" : "initial",
+    "last_start" : "2022-09-08T15:14:27Z",
+    "serial_no" : "123",
+    "hardware" : {
+      "make" : "BOS",
+      "model" : "pubber"
+    },
+    "software" : {
+      "firmware" : "v1"
+    },
+    "status" : {
+      "message" : "success",
+      "category" : "system.config.apply",
+      "timestamp" : "2022-09-08T15:26:50Z",
+      "level" : 300
+    }
+  },
+  "discovery" : {
+    "enumeration" : {
+      "generation" : "2022-09-08T15:19:27Z"
+    },
+    "families" : {
+      "virtual" : { }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : { },
+      "filter_differential_pressure_setpoint" : {
+        "value_state" : "applied"
+      },
+      "filter_differential_pressure_sensor" : { }
+    }
+  }
+}
+2022-09-08T15:26:52Z INFO sequencer Updated state has last_config 2022-09-08T15:26:50Z
+2022-09-08T15:26:52Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:52Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:57Z DEBUG sequencer received event_pointset
+2022-09-08T15:26:57Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:57Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:59Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:59Z: update state 2022-09-08T15:26:59Z last_config 2022-09-08T15:26:50Z
+2022-09-08T15:26:59Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:59Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:59Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:26:59Z: State update defer -6357ms
+2022-09-08T15:26:59Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:59Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:59Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:26:59Z: Discovery scan starting virtual as 2022-09-08T15:26:59Z
+2022-09-08T15:26:59Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:59Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:59Z DEBUG sequencer received state_discovery
+2022-09-08T15:26:59Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:59Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:59Z DEBUG sequencer received state_pointset
+2022-09-08T15:26:59Z DEBUG sequencer Suppressing exception: java.lang.NullPointerException
+2022-09-08T15:26:59Z TRACE sequencer Suppressed from line sequences.DiscoverySequences.lambda$familyScanActivated$20(DiscoverySequences.java:171)
+2022-09-08T15:26:59Z DEBUG sequencer received state_update
+2022-09-08T15:26:59Z DEBUG sequencer Updated state #008:
+{
+  "timestamp" : "2022-09-08T15:26:59Z",
+  "version" : "1.3.14",
+  "system" : {
+    "last_config" : "2022-09-08T15:26:50Z",
+    "operational" : true,
+    "mode" : "initial",
+    "last_start" : "2022-09-08T15:14:27Z",
+    "serial_no" : "123",
+    "hardware" : {
+      "make" : "BOS",
+      "model" : "pubber"
+    },
+    "software" : {
+      "firmware" : "v1"
+    },
+    "status" : {
+      "message" : "success",
+      "category" : "system.config.apply",
+      "timestamp" : "2022-09-08T15:26:50Z",
+      "level" : 300
+    }
+  },
+  "discovery" : {
+    "enumeration" : {
+      "generation" : "2022-09-08T15:19:27Z"
+    },
+    "families" : {
+      "virtual" : {
+        "generation" : "2022-09-08T15:26:59Z",
+        "active" : true
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : { },
+      "filter_differential_pressure_setpoint" : {
+        "value_state" : "applied"
+      },
+      "filter_differential_pressure_sensor" : { }
+    }
+  }
+}
+2022-09-08T15:26:59Z INFO sequencer Updated state has last_config 2022-09-08T15:26:50Z
+2022-09-08T15:26:59Z INFO sequencer finished waiting for scheduled scan start after 21s
+2022-09-08T15:26:59Z INFO sequencer start waiting for scan activation after 21s
+2022-09-08T15:26:59Z DEBUG sequencer system config extra field null
+2022-09-08T15:26:59Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "2022-09-08T15:26:50Z",
+  "version" : "@@@cloud udmi version###1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "discovery" : {
+    "families" : {
+      "virtual" : {
+        "generation" : "2022-09-08T15:26:59Z",
+        "enumerate" : true
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:59Z INFO sequencer finished waiting for scan activation after 21s
+2022-09-08T15:26:59Z INFO sequencer start waiting for scan completed after 21s
+2022-09-08T15:26:59Z DEBUG sequencer system config extra field null
+2022-09-08T15:26:59Z DEBUG sequencer local local_config:
+{
+  "timestamp" : "2022-09-08T15:26:50Z",
+  "version" : "@@@cloud udmi version###1.3.13-129-g48eea9cf",
+  "system" : {
+    "min_loglevel" : 200,
+    "metrics_rate_sec" : 600,
+    "last_start" : "2022-09-08T15:14:27Z",
+    "testing" : {
+      "sequence_name" : "single_scan"
+    }
+  },
+  "discovery" : {
+    "families" : {
+      "virtual" : {
+        "generation" : "2022-09-08T15:26:59Z",
+        "enumerate" : true
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : {
+        "ref" : "BV11.present_value"
+      },
+      "filter_differential_pressure_setpoint" : {
+        "set_value" : 98
+      },
+      "filter_differential_pressure_sensor" : {
+        "ref" : "AV12.present_value"
+      }
+    }
+  }
+}
+2022-09-08T15:26:59Z DEBUG sequencer received state_system
+2022-09-08T15:27:04Z DEBUG sequencer received event_discovery
+2022-09-08T15:27:04Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:27:04Z: Sent 1 discovery events from virtual for Thu Sep 08 15:26:59 UTC 2022
+2022-09-08T15:27:07Z DEBUG sequencer received event_pointset
+2022-09-08T15:27:09Z DEBUG sequencer received event_system WARNING pubber 2022-09-08T15:27:09Z: State update defer -7887ms
+2022-09-08T15:27:09Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:27:09Z: Discovery scan stopping virtual from 2022-09-08T15:26:59Z
+2022-09-08T15:27:09Z DEBUG sequencer received event_system INFO pubber 2022-09-08T15:27:09Z: update state 2022-09-08T15:27:09Z last_config 2022-09-08T15:26:50Z
+2022-09-08T15:27:09Z DEBUG sequencer received state_update
+2022-09-08T15:27:09Z DEBUG sequencer Updated state #009:
+{
+  "timestamp" : "2022-09-08T15:27:09Z",
+  "version" : "1.3.14",
+  "system" : {
+    "last_config" : "2022-09-08T15:26:50Z",
+    "operational" : true,
+    "mode" : "initial",
+    "last_start" : "2022-09-08T15:14:27Z",
+    "serial_no" : "123",
+    "hardware" : {
+      "make" : "BOS",
+      "model" : "pubber"
+    },
+    "software" : {
+      "firmware" : "v1"
+    },
+    "status" : {
+      "message" : "success",
+      "category" : "system.config.apply",
+      "timestamp" : "2022-09-08T15:26:50Z",
+      "level" : 300
+    }
+  },
+  "discovery" : {
+    "enumeration" : {
+      "generation" : "2022-09-08T15:19:27Z"
+    },
+    "families" : {
+      "virtual" : {
+        "generation" : "2022-09-08T15:26:59Z",
+        "active" : false
+      }
+    }
+  },
+  "pointset" : {
+    "points" : {
+      "filter_alarm_pressure_status" : { },
+      "filter_differential_pressure_setpoint" : {
+        "value_state" : "applied"
+      },
+      "filter_differential_pressure_sensor" : { }
+    }
+  }
+}
+2022-09-08T15:27:09Z INFO sequencer Updated state has last_config 2022-09-08T15:26:50Z
+2022-09-08T15:27:09Z INFO sequencer finished waiting for scan completed after 31s
+2022-09-08T15:27:09Z WARNING sequencer Not resetting config to enable post-execution debugging
+2022-09-08T15:27:09Z NOTICE sequencer RESULT pass single_scan Sequence complete
+2022-09-08T15:27:09Z INFO sequencer Sequence complete
+2022-09-08T15:27:09Z NOTICE sequencer ending test single_scan after 31s
