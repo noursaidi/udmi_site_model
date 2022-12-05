@@ -1,0 +1,16 @@
+{
+  "extraField" : "extraField",
+  "points" : {
+    "filter_differential_pressure_setpoint" : {
+      "present_value" : 98
+    },
+    "__POINT" : {
+      "present_value" : 14
+    },
+    "filter_differential_pressure_sensor" : {
+      "present_value" : 11
+    }
+  },
+  "timestamp" : "2022-12-05T12:56:32.002Z",
+  "version" : "1.4.0"
+}

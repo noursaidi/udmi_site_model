@@ -1,0 +1,18 @@
+{
+  "last_config" : "2020-05-01T13:39:07Z",
+  "last_start" : "2022-12-05T12:56:10Z",
+  "mode" : "initial",
+  "operational" : true,
+  "serial_no" : "123",
+  "software" : {
+    "firmware" : "v1"
+  },
+  "status" : {
+    "message" : "success",
+    "category" : "system.config.apply",
+    "timestamp" : "2022-12-05T12:56:18Z",
+    "level" : 300
+  },
+  "timestamp" : "2022-12-05T12:56:20Z",
+  "version" : "1.4.0"
+}
