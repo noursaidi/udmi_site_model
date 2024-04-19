@@ -1,0 +1,3 @@
+Exceptions for SF-28
+  While converting device config
+    metadata.gateway.target.addr should not be defined

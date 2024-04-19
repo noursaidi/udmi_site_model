@@ -1,0 +1,21 @@
+Initializing
+java.lang.RuntimeException: While converting device config
+	at com.google.daq.mqtt.registrar.LocalDevice.deviceConfigString(LocalDevice.java:515)
+	at com.google.daq.mqtt.registrar.LocalDevice.initializeSettings(LocalDevice.java:464)
+	at java.base/java.util.HashMap$Values.forEach(HashMap.java:1065)
+	at com.google.daq.mqtt.registrar.Registrar.initializeSettings(Registrar.java:1028)
+	at com.google.daq.mqtt.registrar.Registrar.loadLocalDevices(Registrar.java:1013)
+	at com.google.daq.mqtt.registrar.Registrar.processDevices(Registrar.java:469)
+	at com.google.daq.mqtt.registrar.Registrar.execute(Registrar.java:293)
+	at com.google.daq.mqtt.registrar.Registrar.main(Registrar.java:154)
+Caused by: java.lang.RuntimeException: metadata.gateway.target.addr should not be defined
+	at com.google.udmi.util.GeneralUtils.ifNotNullThrow(GeneralUtils.java:280)
+	at com.google.daq.mqtt.util.ConfigManager.lambda$getGatewayConfig$2(ConfigManager.java:162)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at com.google.udmi.util.GeneralUtils.ifNotNullThen(GeneralUtils.java:285)
+	at com.google.daq.mqtt.util.ConfigManager.getGatewayConfig(ConfigManager.java:161)
+	at com.google.daq.mqtt.util.ConfigManager.generateDeviceConfig(ConfigManager.java:129)
+	at com.google.daq.mqtt.util.ConfigManager.deviceConfig(ConfigManager.java:91)
+	at com.google.daq.mqtt.util.ConfigManager.deviceConfigJson(ConfigManager.java:113)
+	at com.google.daq.mqtt.registrar.LocalDevice.deviceConfigString(LocalDevice.java:509)
+	... 7 more
